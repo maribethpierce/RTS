@@ -14,6 +14,6 @@ class StringShuffler
   end
 
   def shuffled(input)
-    print "#{@string} rotated by #{input} is #{arr_shuffle(input).join}."
+    print "'#{@string}' rotated by #{input} is '#{arr_shuffle(input).join}'."
   end
 end
